@@ -6,7 +6,8 @@ package tdd.com.example;
 */
 
 public class PasswordValidator {
-	public boolean isValid(String password){
+	//chaned this function as static
+	public static boolean isValid(String password){
 		//start string
 		//a digit must occur at least once
 		//a lower case letter must occur at least once
