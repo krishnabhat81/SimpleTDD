@@ -2,6 +2,7 @@
  * @author krishna1bhat
  *
  */
+//1. JUnit feature - fixtures
 package tdd.com.example.fixtures;
 
 import junit.framework.TestCase;
