@@ -2,7 +2,7 @@
  * @author krishna1bhat
  *
  */
-//1. JUnit feature - test suites
+//2. JUnit feature - test suites
 //Test suite bundles a few unit test cases and runs them together.
 //Run this class
 
