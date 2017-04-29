@@ -1,5 +1,7 @@
 package tdd.com.example.annotations;
 
+import static org.junit.Assert.assertFalse;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -47,10 +49,17 @@ public class JunitAnnotations {
 		System.out.println("After is called");
 	}
 
-	// test case ignore and will not execute
+	// test case ignore and will not execute -- method or whole class can be ignored
+	
+	//Sometimes it so happens that our code is not completely ready while running a test case. 
+	//As a result, the test case fails.
+	
+	//Add @Ignore at class level if you want to ignore whole class for testing
 	@Ignore
+	@Test
 	public void ignoreTest() {
 		System.out.println("Ignore is called");
+		assertFalse(true);
 	}
 
 	@Test
